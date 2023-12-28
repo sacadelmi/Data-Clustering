@@ -77,18 +77,19 @@ The figures below represent the Silhouette coefficient vs the number of clusters
 
 ### Further Results: Optimum Silhouette Coefficient
 
-| Algorithm          | Optimal Setting | Silhouette Coefficient |
-| ------------------ | --------------- | ---------------------- |
-| K-Means            | K=2             | 0.1525...              |
-| K-Means++          | K=2             | 0.1525...              |
-| Bisecting K-Means  | S=2             | 0.1525...              |
+| Algorithm          | Optimal Setting | Silhouette Coefficient       |
+| ------------------ | --------------- | ---------------------------- |
+| K-Means            | K=2             | 0.1525277616533619           |
+| K-Means++          | K=2             | 0.1525277616533619           |
+| Bisecting K-Means  | S=2             | 0.1525277616533619           |
 
-This table summarizes the optimal settings and their respective silhouette coefficients for the three clustering algorithms: K-Means, K-Means++, and Bisecting K-Means. Each algorithm achieves the same silhouette coefficient of approximately 0.1525 at the specified optimal settings.
+This table details the optimal settings and their respective silhouette coefficients for the three clustering algorithms: K-Means, K-Means++, and Bisecting K-Means. Each algorithm achieves a silhouette coefficient of 0.1525277616533619 at the specified optimal settings.
 
-#### Analysis of Results
+
+### Analysis of Results
 The silhouette score at K/S = 2 demonstrates the optimum clustering for our dataset across all three algorithms: K-Means, K-Means++, and Bisecting K-Means. Surprisingly, each algorithm obtained identical silhouette scores at this value.
 
-### Implications of Silhouette Coefficient Results
+#### Implications of Silhouette Coefficient Results
 
 The consistency of silhouette scores across algorithms at K/S = 2 indicates that this setting provides the best clustering quality for our dataset. 
 
